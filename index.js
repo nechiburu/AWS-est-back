@@ -2,6 +2,7 @@ const express =require('express');
 const routes = require('./routes');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+require('dotenv').config;
 
 // cors permite que te conectes a otro servidor
 
